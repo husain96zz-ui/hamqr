@@ -1018,3 +1018,21 @@ footer {
   .kpis { grid-template-columns: 1fr; }
   .dash-main { padding: 18px; }
 }
+/* ربط صور الطعام مباشرة لكافة الخانات */
+div.food.f1, div.p-food.f1, article div.f1, .menu-item div.f1 {
+  background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+div.food.f2, div.p-food.f2, article div.f2, .menu-item div.f2 {
+  background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+div.food.f3, div.p-food.f3, article div.f3, .menu-item div.f3 {
+  background-image: url('https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=600&q=80') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
