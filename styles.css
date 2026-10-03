@@ -1017,3 +1017,10 @@ footer {
   .kpis { grid-template-columns: 1fr; }
   .dash-main { padding: 18px; }
 }
+/* إصلاح وإظهار صورة البطاطا المقلية في المنيو والمعاينة */
+.f3, .food.f3, .p-food.f3 {
+  background-image: url('https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=600&q=80') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
