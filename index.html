@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=4.0"/>
+<link rel="stylesheet" href="styles.css?v=5.0"/>
 </head>
 <body>
 <header class="nav"><div class="container nav-in"><a class="brand" href="#home"><span class="brand-mark">H<span>⌁</span>QR</span><small>هام كيو آر</small></a><button class="menu-btn" aria-label="القائمة">☰</button><nav class="links"><a href="#features">المميزات</a><a href="#pricing">الأسعار</a><a href="#preview">تجربة المنيو</a><a href="#dashboard">لوحة التحكم</a></nav><div class="nav-actions"><button class="btn ghost" data-modal="login">تسجيل الدخول</button><button class="btn gold" data-modal="signup">ابدأ الآن</button></div></div></header>
@@ -21,7 +21,21 @@
 <section id="pricing" class="section pricing"><div class="container"><div class="center-head"><span class="eyebrow">PLANS</span><h2>اختر الباقة المناسبة<br><em>لنمو مطعمك.</em></h2><p>باقات واضحة بدون تعقيد. يمكنك الترقية أو التغيير لاحقًا.</p></div><div class="price-grid"><article class="price"><span>STARTER</span><h3>البداية</h3><div class="amount">15,000 <small>د.ع / شهر</small></div><ul><li>منيو رقمي واحد</li><li>QR Code</li><li>حتى 50 صنف</li><li>تخصيص أساسي</li><li>دعم عبر الرسائل</li></ul><button class="btn outline full" data-modal="signup">ابدأ الآن</button></article><article class="price featured"><label>الأكثر طلبًا</label><span>PRO</span><h3>احترافي</h3><div class="amount">30,000 <small>د.ع / شهر</small></div><ul><li>منيو كامل بلا حدود</li><li>QR متعدد للطاولات</li><li>تخصيص متقدم</li><li>إحصائيات الزيارات</li><li>دعم أولوية</li></ul><button class="btn gold full" data-modal="signup">اشترك في PRO</button></article><article class="price"><span>BUSINESS</span><h3>أعمال</h3><div class="amount">60,000 <small>د.ع / شهر</small></div><ul><li>عدة فروع</li><li>إدارة مركزية</li><li>تقارير متقدمة</li><li>صلاحيات للموظفين</li><li>دعم مخصص</li></ul><button class="btn outline full" data-modal="signup">ابدأ الآن</button></article></div></div></section>
 <section class="cta"><div class="container"><span class="eyebrow">HAMQR</span><h2>جاهز تنقل منيو مطعمك<br><em>إلى المستوى التالي؟</em></h2><button class="btn gold lg" data-modal="signup">أنشئ حسابك الآن ←</button></div></section>
 </main>
-<footer><div class="container foot"><div><div class="brand-mark">HAMQR</div><small>هام كيو آر — أنظمة المنيو الرقمي</small></div><div><a href="#features">المميزات</a><a href="#pricing">الباقات</a><a href="#dashboard">لوحة التحكم</a></div><small>© 2026 HAM Menu Systems</small></div></footer>
+<footer>
+  <div class="container foot">
+    <div>
+      <div class="brand-mark">HAMQR</div>
+      <small>هام كيو آر — أنظمة المنيو الرقمي</small>
+      <small style="display: block; margin-top: 6px; color: var(--gold2); font-weight: bold; font-size: 11px;">المهندس حسين علي الموسوي</small>
+    </div>
+    <div>
+      <a href="#features">المميزات</a>
+      <a href="#pricing">الباقات</a>
+      <a href="#dashboard">لوحة التحكم</a>
+    </div>
+    <small>© 2026 HAM Menu Systems</small>
+  </div>
+</footer>
 <div class="modal" id="modal"><div class="modal-box"><button class="close">×</button><span class="eyebrow">HAMQR</span><h2 id="modal-title">ابدأ مع HAMQR</h2><p id="modal-copy">أنشئ حساب مطعمك وابدأ تجربة المنيو الرقمي.</p><form id="signup-form"><input placeholder="اسم المطعم" required/><input placeholder="اسم المسؤول" required/><input type="tel" placeholder="رقم الهاتف" required/><select><option>اختر الباقة</option><option>البداية — 15,000 د.ع</option><option>PRO — 30,000 د.ع</option><option>أعمال — 60,000 د.ع</option></select><button class="btn gold full">متابعة</button></form></div></div>
 <script src="app.js"></script>
 </body></html>
