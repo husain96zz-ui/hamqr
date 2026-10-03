@@ -1,0 +1,8 @@
+const modal=document.getElementById('modal');
+function openModal(type){modal.classList.add('show');const title=document.getElementById('modal-title');const copy=document.getElementById('modal-copy');if(type==='login'){title.textContent='تسجيل الدخول';copy.textContent='أدخل بيانات حساب مطعمك للوصول إلى لوحة التحكم.'}else{title.textContent='ابدأ مع HAMQR';copy.textContent='أنشئ حساب مطعمك وابدأ تجربة المنيو الرقمي.'}}
+document.querySelectorAll('[data-modal]').forEach(b=>b.addEventListener('click',()=>openModal(b.dataset.modal)));
+document.querySelector('.close').onclick=()=>modal.classList.remove('show');
+modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('show')});
+document.getElementById('signup-form').addEventListener('submit',e=>{e.preventDefault();document.getElementById('modal-title').textContent='تم استلام طلبك';document.getElementById('modal-copy').textContent='هذه نسخة تجريبية من المنصة. الخطوة التالية هي ربط الحسابات وقاعدة البيانات والدفع الحقيقي.';e.target.innerHTML='<div style="text-align:center;padding:20px;color:#d9b467;font-size:42px">✓</div>'});
+document.querySelectorAll('[data-view="menu"]').forEach(b=>b.addEventListener('click',()=>document.getElementById('preview').scrollIntoView({behavior:'smooth'})));
+const menuBtn=document.querySelector('.menu-btn');menuBtn.addEventListener('click',()=>{const links=document.querySelector('.links');links.style.display=links.style.display==='flex'?'none':'flex';links.style.position='absolute';links.style.top='68px';links.style.right='4%';links.style.left='4%';links.style.background='#10100f';links.style.padding='20px';links.style.border='1px solid #292720';links.style.borderRadius='15px';links.style.flexDirection='column'});
